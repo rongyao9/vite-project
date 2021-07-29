@@ -262,6 +262,16 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@types/node@^16.4.6":
+  version "16.4.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.4.6.tgz#1734d119dfa8fede5606d35ae10f9fc9c84d889b"
+  integrity sha512-FKyawK3o5KL16AwbeFajen8G4K3mmqUrQsehn5wNKs8IzlKHE8TfnSmILXVMVziAEcnB23u1RCFU1NT6hSyr7Q==
+
+"@types/webpack-env@^1.16.2":
+  version "1.16.2"
+  resolved "https://registry.yarnpkg.com/@types/webpack-env/-/webpack-env-1.16.2.tgz#8db514b059c1b2ae14ce9d7bb325296de6a9a0fa"
+  integrity sha512-vKx7WNQNZDyJveYcHAm9ZxhqSGLYwoyLhrHjLBOkw3a7cT76sTdjgtwyijhk1MaHyRIuSztcVwrUOO/NEu68Dw==
+
 "@vitejs/plugin-vue-jsx@^1.1.3":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue-jsx/-/plugin-vue-jsx-1.1.3.tgz#426c68f8a367a603acb82fca6e2b12506ba9fc8e"
@@ -346,6 +356,11 @@
   dependencies:
     "@vue/compiler-dom" "3.0.11"
     "@vue/shared" "3.0.11"
+
+"@vue/devtools-api@^6.0.0-beta.11":
+  version "6.0.0-beta.15"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.0.0-beta.15.tgz#ad7cb384e062f165bcf9c83732125bffbc2ad83d"
+  integrity sha512-quBx4Jjpexo6KDiNUGFr/zF/2A4srKM9S9v2uHgMXSU//hjgq1eGzqkIFql8T9gfX5ZaVOUzYBP3jIdIR3PKIA==
 
 "@vue/reactivity@3.0.11":
   version "3.0.11"
@@ -1673,6 +1688,13 @@ vue@^3.0.5:
     "@vue/compiler-dom" "3.0.11"
     "@vue/runtime-dom" "3.0.11"
     "@vue/shared" "3.0.11"
+
+vuex@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/vuex/-/vuex-4.0.2.tgz#f896dbd5bf2a0e963f00c67e9b610de749ccacc9"
+  integrity sha512-M6r8uxELjZIK8kTKDGgZTYX/ahzblnzC4isU1tpmEuOIIKmV+TRdc+H4s8ds2NuZ7wpUTdGRzJRtoj+lI+pc0Q==
+  dependencies:
+    "@vue/devtools-api" "^6.0.0-beta.11"
 
 which@^2.0.1:
   version "2.0.2"

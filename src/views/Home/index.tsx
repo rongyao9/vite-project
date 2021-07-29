@@ -1,8 +1,13 @@
 import {defineComponent,ref, render} from 'vue'
+import useHome from '../../hooks/useHome'
 export default defineComponent({
     name:'home',
     setup(){
-        const title = ref<string>('这是个标题')
+
+        const {
+            title
+        } = useHome()
+
         const renderContent = ()=>{
             return ( <h1>{title.value}</h1>)
         }
